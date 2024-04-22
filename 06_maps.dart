@@ -10,4 +10,12 @@ void main() {
   print(pokemon['name']);
   print('Back: ${pokemon['sprites'][2]}');
   print('Front: ${pokemon['sprites'][1]}');
+  // Definiendo un mapa sin valores
+  Map<String, dynamic> capitan = new Map();
+  capitan.addAll({
+    'nombre': 'Steve',
+    'poder': 'volar',
+    'nivel': 9000,
+  });
+  print('Capitan: $capitan');
 }
