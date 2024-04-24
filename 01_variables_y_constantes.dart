@@ -6,7 +6,7 @@ void main() {
   late final myName = 'David';
 
   final List<String> nombresList = ['Maria', 'Juan'];
-  const List<String> nombresConst = ['Maria', 'Juan'];
+  // const List<String> nombresConst = ['Maria', 'Juan'];
 
   nombresList.add('Pedro');
   // nombresConst.add('Pedro'); // no se puede hacer porque nombresConst es una constante
