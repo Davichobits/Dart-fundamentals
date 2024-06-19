@@ -2,12 +2,11 @@ class Persona {
   // Propiedades
   String? nombre;
   int? edad;
-  String _bio =
-      '_bio propiedad privada'; // Con el _ se crea una propiedad privada. Solo puede ser accedida desde la clase.
+  String _bio = ""; // Con el _ se crea una propiedad privada. Solo puede ser accedida desde la clase.
 
   // Get y Sets
   String get bio {
-    return _bio.toUpperCase();
+    return _bio;
   }
 
   set bio(String text) {
@@ -15,6 +14,15 @@ class Persona {
   }
 
   // Constructores
+
+  // Persona(String nombre, int edad, String bio) {
+  //   this.nombre = nombre;
+  //   this.edad = edad;
+  //   this._bio = bio;
+  // }
+
+  Persona({this.nombre, this.edad});
+
   // Métodos
   @override
   String toString() {
