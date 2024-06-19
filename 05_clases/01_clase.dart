@@ -12,6 +12,6 @@ void main() {
   // persona.nombre = 'David';
   // persona.edad = 33;
   // persona.bio = 'Programador';
-  print(persona);
-  
+  persona.bio = 'Nuevo valor';
+  print(persona.bio);
 }
