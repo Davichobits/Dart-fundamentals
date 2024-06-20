@@ -1,6 +1,6 @@
 import 'clases/Cuadrado.dart';
 
-void main(List<String> args) {
-  final cuadrado = new Cuadrado(10);
+void main() {
+  final cuadrado = new Cuadrado(35);
   print(cuadrado.area);
 }
