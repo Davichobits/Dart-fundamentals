@@ -1,6 +1,7 @@
 void main() {
   Future<String> resultado = Future.delayed(Duration(seconds: 3), () {
     if (1 == 1) {
+      // throw 'Auxilio!';
       throw Exception('Auxilio!');
     }
     return 'retorno del future';
